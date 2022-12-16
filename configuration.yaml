@@ -1,0 +1,30 @@
+
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+#panel_iframe:
+#  gaodemap:
+#    title: '地图'
+#    icon: mdi:map
+#    url: /local/gaodemap/index.html
+
+panel_custom:
+  - name: amap-panel
+    sidebar_title: 地图
+    sidebar_icon: hass:map
+    module_url: /local/amap/amap-panel.js
+    trust_external_script: true
+    config:
+        key: 'afab1993cbdf13fef11f562931d6a17f'

@@ -1,0 +1,668 @@
+2022-12-15 21:20:57.410 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration xiaomi_miot_raw which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-12-15 21:20:57.411 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-12-15 21:21:05.783 WARNING (MainThread) [homeassistant.components.number] custom_components.xiaomi_miot_raw.number::MiotNumberInput is overriding deprecated methods on an instance of NumberEntity, this is not valid and will be unsupported from Home Assistant 2022.10. Please report it to the custom integration author.
+2022-12-15 21:21:10.837 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:10.838 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:10.839 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:10.840 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:10.841 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:10.841 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:10.842 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:10.842 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:10.843 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:15.867 ERROR (MainThread) [custom_components.xiaomi_miot_raw.deps.xiaomi_cloud_new] Timeout while loading MiCloud device list
+2022-12-15 21:21:15.906 WARNING (MainThread) [homeassistant.components.media_player] Setup of media_player platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:15.906 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform energy is taking over 10 seconds.
+2022-12-15 21:21:20.938 WARNING (MainThread) [homeassistant.components.fan] Setup of fan platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.939 WARNING (MainThread) [homeassistant.components.fan] Setup of fan platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.943 WARNING (MainThread) [homeassistant.components.fan] Setup of fan platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.944 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.944 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.946 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.947 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.948 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.948 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.948 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.959 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.959 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.960 WARNING (MainThread) [homeassistant.components.binary_sensor] Setup of binary_sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.960 WARNING (MainThread) [homeassistant.components.water_heater] Setup of water_heater platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.961 WARNING (MainThread) [homeassistant.components.cover] Setup of cover platform xiaomi_miot_raw is taking over 10 seconds.
+2022-12-15 21:21:20.971 ERROR (MainThread) [custom_components.xiaomi_miot_raw.deps.xiaomi_cloud_new] Error while requesting MIoT api /miotspec/prop/get : 
+2022-12-15 21:21:20.976 ERROR (MainThread) [haffmpeg.core] FFmpeg fails [Errno 2] No such file or directory: 'ffmpeg'
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/haffmpeg/core.py", line 136, in open
+    self._proc = await self._loop.run_in_executor(None, proc_func)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'
+2022-12-15 21:21:20.985 WARNING (MainThread) [haffmpeg.tools] Error starting FFmpeg.
+2022-12-15 21:21:29.045 ERROR (MainThread) [pyhap.characteristic] TargetHeatingCoolingState: value=0 is an invalid value.
+2022-12-15 21:21:33.823 WARNING (SyncWorker_7) [scapy.runtime] No IPv4 address found on en5 !
+2022-12-15 21:21:33.876 WARNING (SyncWorker_7) [scapy.runtime] No IPv4 address found on ap1 !
+2022-12-15 21:21:33.919 WARNING (SyncWorker_7) [scapy.runtime] more No IPv4 address found on awdl0 !
+2022-12-15 21:21:48.512 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:21:49.534 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:21:50.559 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:21:51.585 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:23:48.529 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:23:49.554 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:23:51.500 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:25:48.552 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:25:49.576 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:25:50.497 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:25:51.524 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:27:48.568 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:27:50.514 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:27:51.540 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:29:48.444 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:29:49.369 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:29:50.392 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:29:51.421 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:31:48.359 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:31:49.382 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:31:50.408 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:31:51.431 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:33:48.481 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:33:49.399 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:33:50.424 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:33:51.447 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:35:48.394 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:35:49.414 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:35:50.441 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:35:51.362 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:37:48.409 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:37:49.431 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:37:50.455 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:37:51.377 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:39:48.425 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:39:49.450 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:39:50.370 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:39:51.497 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:41:48.440 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:41:49.568 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:41:50.591 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:41:51.618 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:43:48.468 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:43:49.490 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:43:50.516 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:43:51.538 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:45:48.591 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:45:49.511 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:45:50.536 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:45:51.559 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:47:48.403 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:47:49.426 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:47:50.452 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:47:51.477 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:49:48.421 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:49:49.444 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:49:50.471 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:49:51.492 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:51:49.462 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:51:50.485 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:51:51.510 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:53:48.871 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:53:49.480 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:53:50.504 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:53:51.528 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:55:48.575 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:55:49.805 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:55:50.831 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
+2022-12-15 21:55:51.445 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
+    await self._async_send_response_rootdevice(remote_addr)
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
+    await self._async_send_response(
+  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
+    self._response_socket.sendto(packet, remote_addr)
+OSError: [Errno 65] No route to host
