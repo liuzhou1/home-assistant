@@ -1,668 +1,301 @@
-2022-12-15 21:20:57.410 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration xiaomi_miot_raw which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2022-12-15 21:20:57.411 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2022-12-15 21:21:05.783 WARNING (MainThread) [homeassistant.components.number] custom_components.xiaomi_miot_raw.number::MiotNumberInput is overriding deprecated methods on an instance of NumberEntity, this is not valid and will be unsupported from Home Assistant 2022.10. Please report it to the custom integration author.
-2022-12-15 21:21:10.837 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:10.838 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:10.839 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:10.840 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:10.841 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:10.841 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:10.842 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:10.842 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:10.843 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:15.867 ERROR (MainThread) [custom_components.xiaomi_miot_raw.deps.xiaomi_cloud_new] Timeout while loading MiCloud device list
-2022-12-15 21:21:15.906 WARNING (MainThread) [homeassistant.components.media_player] Setup of media_player platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:15.906 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform energy is taking over 10 seconds.
-2022-12-15 21:21:20.938 WARNING (MainThread) [homeassistant.components.fan] Setup of fan platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.939 WARNING (MainThread) [homeassistant.components.fan] Setup of fan platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.943 WARNING (MainThread) [homeassistant.components.fan] Setup of fan platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.944 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.944 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.946 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.947 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.948 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.948 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.948 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.959 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.959 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.960 WARNING (MainThread) [homeassistant.components.binary_sensor] Setup of binary_sensor platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.960 WARNING (MainThread) [homeassistant.components.water_heater] Setup of water_heater platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.961 WARNING (MainThread) [homeassistant.components.cover] Setup of cover platform xiaomi_miot_raw is taking over 10 seconds.
-2022-12-15 21:21:20.971 ERROR (MainThread) [custom_components.xiaomi_miot_raw.deps.xiaomi_cloud_new] Error while requesting MIoT api /miotspec/prop/get : 
-2022-12-15 21:21:20.976 ERROR (MainThread) [haffmpeg.core] FFmpeg fails [Errno 2] No such file or directory: 'ffmpeg'
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/haffmpeg/core.py", line 136, in open
-    self._proc = await self._loop.run_in_executor(None, proc_func)
-  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/thread.py", line 58, in run
-    result = self.fn(*self.args, **self.kwargs)
-  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/subprocess.py", line 969, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/subprocess.py", line 1845, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'
-2022-12-15 21:21:20.985 WARNING (MainThread) [haffmpeg.tools] Error starting FFmpeg.
-2022-12-15 21:21:29.045 ERROR (MainThread) [pyhap.characteristic] TargetHeatingCoolingState: value=0 is an invalid value.
-2022-12-15 21:21:33.823 WARNING (SyncWorker_7) [scapy.runtime] No IPv4 address found on en5 !
-2022-12-15 21:21:33.876 WARNING (SyncWorker_7) [scapy.runtime] No IPv4 address found on ap1 !
-2022-12-15 21:21:33.919 WARNING (SyncWorker_7) [scapy.runtime] more No IPv4 address found on awdl0 !
-2022-12-15 21:21:48.512 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:21:49.534 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:21:50.559 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:21:51.585 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:23:48.529 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:23:49.554 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:23:51.500 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:25:48.552 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:25:49.576 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:25:50.497 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:25:51.524 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:27:48.568 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:27:50.514 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:27:51.540 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:29:48.444 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:29:49.369 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:29:50.392 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:29:51.421 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:31:48.359 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:31:49.382 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:31:50.408 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:31:51.431 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:33:48.481 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:33:49.399 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:33:50.424 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:33:51.447 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:35:48.394 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:35:49.414 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:35:50.441 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:35:51.362 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:37:48.409 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:37:49.431 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:37:50.455 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:37:51.377 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:39:48.425 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:39:49.450 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:39:50.370 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:39:51.497 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:41:48.440 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:41:49.568 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:41:50.591 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:41:51.618 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:43:48.468 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:43:49.490 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:43:50.516 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:43:51.538 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:45:48.591 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:45:49.511 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:45:50.536 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:45:51.559 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:47:48.403 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:47:49.426 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:47:50.452 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:47:51.477 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:49:48.421 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:49:49.444 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:49:50.471 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:49:51.492 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:51:49.462 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:51:50.485 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:51:51.510 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:53:48.871 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:53:49.480 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:53:50.504 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:53:51.528 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:55:48.575 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:55:49.805 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:55:50.831 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
-2022-12-15 21:55:51.445 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 336, in _async_on_data
-    await self._async_send_response_rootdevice(remote_addr)
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 401, in _async_send_response_rootdevice
-    await self._async_send_response(
-  File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/async_upnp_client/server.py", line 469, in _async_send_response
-    self._response_socket.sendto(packet, remote_addr)
-OSError: [Errno 65] No route to host
+2023-03-11 12:36:51.000 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration colorfulclouds which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-03-11 12:36:51.001 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration xiaomi_miot_raw which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-03-11 12:36:51.001 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-03-11 12:36:58.123 WARNING (MainThread) [homeassistant.components.number] custom_components.xiaomi_miot_raw.number::MiotNumberInput is overriding deprecated methods on an instance of NumberEntity, this is not valid and will be unsupported from Home Assistant 2022.10. Please report it to the custom integration author.
+2023-03-11 12:36:58.162 ERROR (MainThread) [homeassistant.config] Invalid config for [calendar.caldav]: expected a URL for dictionary value @ data['url']. Got 'calendar.dingtalk.com'. (See /Users/liuzhou/.homeassistant/configuration.yaml, line 23). Please check the docs at https://www.home-assistant.io/integrations/caldav
+2023-03-11 12:37:03.363 ERROR (MainThread) [homeassistant.components.climate] Platform xiaomi_miot_raw does not generate unique IDs. ID miotir-cloud-190208 is already used by climate.miotir_cloud_190208 - ignoring xiaomi_miot_raw.miotir-cloud-190208
+2023-03-11 12:37:03.379 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:03.380 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:03.381 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:03.381 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:03.382 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:03.382 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:03.385 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:03.385 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:03.386 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:03.387 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:03.387 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:03.391 ERROR (MainThread) [custom_components.xiaomi_miot_raw.deps.xiaomi_cloud_new] Timeout while loading MiCloud device list
+2023-03-11 12:37:08.435 WARNING (MainThread) [homeassistant.components.media_player] Setup of media_player platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.435 WARNING (MainThread) [homeassistant.components.number] Setup of number platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.436 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.436 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.437 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.437 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.438 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.438 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.439 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.439 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.439 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.440 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.440 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.441 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.441 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.441 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.441 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.442 WARNING (MainThread) [homeassistant.components.cover] Setup of cover platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.442 WARNING (MainThread) [homeassistant.components.fan] Setup of fan platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.443 WARNING (MainThread) [homeassistant.components.fan] Setup of fan platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.443 WARNING (MainThread) [homeassistant.components.fan] Setup of fan platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:37:08.468 ERROR (MainThread) [custom_components.xiaomi_miot_raw.deps.xiaomi_cloud_new] Error while requesting MIoT api /miotspec/prop/get : 
+2023-03-11 12:37:08.469 ERROR (MainThread) [custom_components.xiaomi_miot_raw.deps.xiaomi_cloud_new] Error while requesting MIoT api /miotspec/prop/get : 
+2023-03-11 12:37:09.335 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/Users/liuzhou/.homeassistant/custom_components/xiaomi_miot_raw/basic_dev_class.py", line 554, in create_sub_entities
+    self._hass.data[DOMAIN]['add_handler']['number'][self._entry_id](num_to_add, update_before_add=True)
+KeyError: 'number'
+2023-03-11 12:37:28.853 WARNING (MainThread) [aiogithubapi] You need to call .set_last_commit to set this property
+2023-03-11 12:37:30.109 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [4671882960] Error handling message: Unknown error (unknown_error) from 127.0.0.1 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/homeassistant/components/websocket_api/decorators.py", line 27, in _handle_async_response
+    await func(hass, connection, msg)
+  File "/Users/liuzhou/.homeassistant/custom_components/hacs/websocket/repository.py", line 294, in hacs_repository_release_notes
+    [
+  File "/Users/liuzhou/.homeassistant/custom_components/hacs/websocket/repository.py", line 302, in <listcomp>
+    or version_left_higher_then_right(x.tag_name, repository.data.installed_version)
+TypeError: unhashable type: 'AwesomeVersion'
+2023-03-11 12:37:31.378 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [4671882960] Error handling message: Unknown error (unknown_error) from 127.0.0.1 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/homeassistant/components/websocket_api/decorators.py", line 27, in _handle_async_response
+    await func(hass, connection, msg)
+  File "/Users/liuzhou/.homeassistant/custom_components/hacs/websocket/repository.py", line 294, in hacs_repository_release_notes
+    [
+  File "/Users/liuzhou/.homeassistant/custom_components/hacs/websocket/repository.py", line 302, in <listcomp>
+    or version_left_higher_then_right(x.tag_name, repository.data.installed_version)
+TypeError: unhashable type: 'AwesomeVersion'
+2023-03-11 12:37:32.471 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 12:37:32.473 WARNING (MainThread) [homeassistant.components.select] Platform xiaomi_miot_raw not ready yet: None; Retrying in background in 30 seconds
+2023-03-11 12:37:33.933 WARNING (SyncWorker_4) [scapy.runtime] No IPv4 address found on en5 !
+2023-03-11 12:37:33.958 WARNING (SyncWorker_4) [scapy.runtime] No IPv4 address found on ap1 !
+2023-03-11 12:37:34.010 WARNING (SyncWorker_4) [scapy.runtime] more No IPv4 address found on awdl0 !
+2023-03-11 12:37:42.495 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:38:02.501 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 12:38:58.831 WARNING (MainThread) [custom_components.hacs] A timeout of 60! seconds was encountered while downloading https://github.com/hacs/integration/releases/download/1.31.0/hacs.zip, using over 60 seconds to download a single file is not normal. This is not a problem with HACS but how your host communicates with GitHub. Retrying up to 5 times to mask/hide your host/network problems to stop the flow of issues opened about it. Tries left 4
+2023-03-11 12:39:12.504 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:39:32.508 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 12:41:12.511 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:41:32.515 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 12:43:42.511 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:44:02.510 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 12:45:28.587 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 12:46:42.514 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:47:02.519 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 12:50:12.525 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:50:32.529 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 12:53:42.533 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:54:02.538 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 12:54:13.783 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 12:57:12.542 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 12:57:18.854 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 12:57:32.549 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:00:42.551 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:00:58.944 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:01:02.558 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:04:12.563 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:04:32.571 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:05:04.037 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:07:42.574 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:08:02.583 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:11:12.589 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:11:32.575 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:12:44.204 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:14:42.582 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:15:02.591 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:17:30.105 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:18:12.597 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:18:32.605 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:19:06.834 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:19:56.844 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:20:06.847 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:21:42.611 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:22:02.614 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:25:12.618 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:25:32.624 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:25:49.148 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:28:42.630 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:29:01.300 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:29:02.784 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:31:36.342 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:31:51.349 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:32:12.791 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:32:32.793 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:32:46.557 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:35:42.799 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:36:02.803 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:37:48.513 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:39:12.809 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:39:32.817 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:40:55.348 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:42:42.823 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:43:02.828 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:43:10.386 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:45:35.420 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:46:12.835 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:46:32.842 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:48:05.455 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 13:49:42.846 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:50:02.851 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:53:12.860 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:53:32.866 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 13:56:42.869 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 13:57:02.877 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:00:12.881 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:00:32.888 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:00:55.650 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 14:03:32.829 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 14:03:42.894 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:04:02.901 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:07:12.904 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:07:18.918 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 14:07:32.905 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:09:15.135 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 14:09:25.137 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 14:10:43.524 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:11:02.909 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:14:12.912 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:14:32.918 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:17:42.923 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:18:02.930 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:21:12.936 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:21:32.942 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:24:42.948 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:25:02.954 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:26:41.648 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 14:28:12.961 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:28:32.966 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:30:31.722 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 14:31:01.735 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 14:31:42.975 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:32:02.980 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:35:12.984 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:35:32.987 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:38:42.993 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:39:02.998 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:39:25.400 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 14:40:30.419 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 14:42:13.002 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:42:33.007 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:43:30.461 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 14:45:43.013 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:46:03.021 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:49:13.026 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:49:33.033 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:52:43.039 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:53:03.047 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:56:13.052 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 14:56:33.055 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 14:56:33.277 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 14:59:20.415 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 14:59:43.059 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:00:03.062 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:03:13.068 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:03:33.071 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:06:43.075 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:07:03.079 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:10:13.082 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:10:33.345 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:13:43.350 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:14:03.354 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:17:13.365 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:17:33.372 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:20:23.231 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 15:20:43.378 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:21:03.384 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:24:13.390 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:24:33.398 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:24:39.979 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 15:27:43.402 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:28:03.407 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:30:06.132 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 15:31:13.410 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:31:33.413 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:34:43.420 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:35:03.426 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:36:01.931 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 15:38:13.432 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:38:33.437 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:41:43.442 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:42:03.449 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:44:55.220 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 15:45:13.454 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:45:33.462 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:48:43.468 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:49:03.475 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:52:13.490 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:52:33.495 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:55:07.105 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 15:55:43.501 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:56:03.505 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 15:57:52.145 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 15:58:57.164 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 15:59:13.517 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 15:59:33.523 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:02:43.539 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:03:03.546 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:04:52.545 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 16:06:13.556 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:06:33.562 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:09:43.575 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:10:03.584 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:12:23.618 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 16:12:33.620 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 16:13:13.590 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:13:33.592 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:15:23.658 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 16:16:43.605 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:17:03.613 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:20:13.619 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:20:33.624 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:23:43.630 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:24:03.640 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:27:10.958 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 16:27:13.647 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:27:33.654 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:30:06.062 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 16:30:43.660 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:30:51.065 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 16:31:03.665 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:31:46.070 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 16:32:26.072 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 16:34:13.668 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:34:33.674 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:37:43.678 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:38:03.681 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:41:13.687 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:41:33.691 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:42:18.971 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 16:43:39.068 WARNING (MainThread) [homeassistant.components.cover] Updating xiaomi_miot_raw cover took longer than the scheduled update interval 0:00:02
+2023-03-11 16:44:43.697 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:45:03.702 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:48:13.707 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:48:25.970 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 16:48:33.717 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:51:02.239 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 16:51:43.721 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:52:03.730 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:55:13.734 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:55:33.744 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 16:58:43.748 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 16:58:58.125 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 16:59:03.750 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 17:02:13.754 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 17:02:33.758 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 17:05:43.766 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 17:06:03.772 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 17:09:13.776 WARNING (MainThread) [homeassistant.components.select] Setup of select platform xiaomi_miot_raw is taking over 10 seconds.
+2023-03-11 17:09:33.781 ERROR (MainThread) [custom_components.xiaomi_miot_raw] The main device of 小米无线开关(255.255.255.255) is still not ready after 30 seconds!
+2023-03-11 17:09:44.139 WARNING (MainThread) [homeassistant.components.sensor] Updating xiaomi_miot_raw sensor took longer than the scheduled update interval 0:00:05
+2023-03-11 17:09:56.996 ERROR (MainThread) [homeassistant.components.homeassistant] The system cannot restart because the configuration is not valid: Invalid config for [calendar.caldav]: expected a URL for dictionary value @ data['url']. Got 'calendar.dingtalk.com'. (See ?, line ?). 
+2023-03-11 17:09:57.001 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [4677591072] The system cannot restart because the configuration is not valid: Invalid config for [calendar.caldav]: expected a URL for dictionary value @ data['url']. Got 'calendar.dingtalk.com'. (See ?, line ?). 
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/homeassistant/components/websocket_api/commands.py", line 200, in handle_call_service
+    await hass.services.async_call(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/homeassistant/core.py", line 1744, in async_call
+    task.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/homeassistant/core.py", line 1781, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/homeassistant/helpers/service.py", line 748, in admin_handler
+    await result
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/homeassistant/components/homeassistant/__init__.py", line 174, in async_handle_core_service
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: The system cannot restart because the configuration is not valid: Invalid config for [calendar.caldav]: expected a URL for dictionary value @ data['url']. Got 'calendar.dingtalk.com'. (See ?, line ?). 

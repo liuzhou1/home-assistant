@@ -8,6 +8,6 @@
 /.cloud
 
 # custom_components
-/custom_components
+# /custom_components
 
 /home-assistant.log
