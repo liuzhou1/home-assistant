@@ -22,9 +22,9 @@ panel_iframe:
 
 # calendar:
 #   - platform: caldav
-#     username: u_yvqa1yjk
-#     password: 3ozwgcjl
-#     url: calendar.dingtalk.com
+#     username: u_5da9e6hl
+#     password: f6prtkba
+#     url: https://next.cloud-link.me/remote.php/dav 
 
 panel_custom:
   - name: amap-panel
@@ -37,4 +37,17 @@ panel_custom:
 
 sensor: 
   - platform: time_date
-    
+
+calendar:
+- platform: ics_calendar
+  calendars:
+      - name: "我的日历"
+        url: "https://url.to/calendar.icshttps://www.shuyz.com/githubfiles/china-holiday-calender/master/holidayCal.ics"
+        include_all_day: True
+      - name: "假期"
+        url: "webcal://p10-calendars.icloud.com/holiday/CN_zh.ics"
+        include_all_day: True
+      - name: "假期2"
+        url: "https://www.shuyz.com/githubfiles/china-holiday-calender/master/holidayCal.ics"
+        include_all_day: True
+        username: True
