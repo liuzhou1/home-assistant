@@ -1,5 +1,6 @@
 """Provide CalendarData class."""
 import zlib
+import ssl
 from datetime import timedelta
 from gzip import BadGzipFile, GzipFile
 from logging import Logger
@@ -16,6 +17,7 @@ from urllib.request import (
 
 from homeassistant.util.dt import now as hanow
 
+ssl._create_default_https_context = ssl._create_unverified_context
 
 class CalendarData:
     """CalendarData class.

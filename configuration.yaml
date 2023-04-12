@@ -10,21 +10,31 @@ frontend:
 tts:
   - platform: google_translate
 
-automation: !include automations.yaml
-script: !include scripts.yaml
-scene: !include scenes.yaml
-
 panel_iframe:
   windy:
     title: '天气'
     icon: mdi:weather-partly-cloudy
     url: https://embed.windy.com/embed2.html?lat=30.16&lon=120.12&detailLat=30.16&detailLon=120.12&zoom=8&level=surface&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1
 
-# calendar:
-#   - platform: caldav
-#     username: u_5da9e6hl
-#     password: f6prtkba
-#     url: https://next.cloud-link.me/remote.php/dav 
+calendar:
+  # - platform: caldav
+  #   url: https://calendar.dingtalk.com/dav/users/u_jcjmmdfc
+  #   username: u_jcjmmdfc
+  #   password: tpcbt0sr
+
+  - platform: caldav
+    url: https://caldav.icloud.com
+    username: 670457194@qq.com
+    password: jevl-rtjy-xpiu-xlij
+
+  - platform: ics_calendar
+    calendars:
+      - name: "二十四节气"
+        url: https://raw.githubusercontent.com/KaitoHH/24-jieqi-ics/master/23_solar_terms_2015-01-01_2050-12-31.ics
+        include_all_day: True
+      - name: "法定节假日"
+        url: https://www.shuyz.com/githubfiles/china-holiday-calender/master/holidayCal.ics
+        include_all_day: True
 
 panel_custom:
   - name: amap-panel
@@ -38,16 +48,3 @@ panel_custom:
 sensor: 
   - platform: time_date
 
-calendar:
-- platform: ics_calendar
-  calendars:
-      - name: "我的日历"
-        url: "https://url.to/calendar.icshttps://www.shuyz.com/githubfiles/china-holiday-calender/master/holidayCal.ics"
-        include_all_day: True
-      - name: "假期"
-        url: "webcal://p10-calendars.icloud.com/holiday/CN_zh.ics"
-        include_all_day: True
-      - name: "假期2"
-        url: "https://www.shuyz.com/githubfiles/china-holiday-calender/master/holidayCal.ics"
-        include_all_day: True
-        username: True
