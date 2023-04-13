@@ -18,14 +18,9 @@ panel_iframe:
 
 calendar:
   - platform: caldav
-    url: https://calendar.dingtalk.com/dav/users/u_jcjmmdfc
-    username: u_jcjmmdfc
-    password: tpcbt0sr
-
-  - platform: caldav
-    url: https://caldav.icloud.com
     username: 670457194@qq.com
-    password: jevl-rtjy-xpiu-xlij
+    password: unhe-yjml-dnsb-cfeq
+    url: https://caldav.icloud.com
 
   - platform: ics_calendar
     calendars:
@@ -34,6 +29,9 @@ calendar:
         include_all_day: True
       - name: "法定节假日"
         url: https://www.shuyz.com/githubfiles/china-holiday-calender/master/holidayCal.ics
+        include_all_day: True
+      - name: "mac法定节假日"
+        url: https://calendars.icloud.com/holidays/cn_zh.ics
         include_all_day: True
 
 panel_custom:
