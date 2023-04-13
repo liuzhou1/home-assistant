@@ -17,10 +17,10 @@ panel_iframe:
     url: https://embed.windy.com/embed2.html?lat=30.16&lon=120.12&detailLat=30.16&detailLon=120.12&zoom=8&level=surface&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1
 
 calendar:
-  # - platform: caldav
-  #   url: https://calendar.dingtalk.com/dav/users/u_jcjmmdfc
-  #   username: u_jcjmmdfc
-  #   password: tpcbt0sr
+  - platform: caldav
+    url: https://calendar.dingtalk.com/dav/users/u_jcjmmdfc
+    username: u_jcjmmdfc
+    password: tpcbt0sr
 
   - platform: caldav
     url: https://caldav.icloud.com
