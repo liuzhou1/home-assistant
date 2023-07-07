@@ -171,7 +171,7 @@ class MiCloud:
                 'signature': signature,
                 '_nonce': nonce,
                 'data': data
-            }, timeout=5)
+            }, timeout=30)
 
             resp = await r.json(content_type=None)
             assert resp['code'] == 0, resp
@@ -213,7 +213,7 @@ class MiCloud:
                 'signature': signature,
                 '_nonce': nonce,
                 'data': data
-            }, timeout=5)
+            }, timeout=30)
 
             self._fail_count = 0
             resp = await r.json(content_type=None)
