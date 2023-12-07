@@ -1,8 +1,8 @@
-2023-10-25 16:57:22.047 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration colorfulclouds which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-10-25 16:57:22.047 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration ics_calendar which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-10-25 16:57:22.047 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration xiaomi_miot_raw which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-10-25 16:57:22.048 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-10-25 16:57:22.980 ERROR (MainThread) [homeassistant.setup] Error during setup of component hardware
+2023-12-07 10:33:11.461 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration colorfulclouds which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-12-07 10:33:11.462 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration ics_calendar which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-12-07 10:33:11.462 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration xiaomi_miot_raw which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-12-07 10:33:11.462 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-12-07 10:33:12.395 ERROR (MainThread) [homeassistant.setup] Error during setup of component hardware
 Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/homeassistant/setup.py", line 288, in _async_setup_component
     result = await task
@@ -28,7 +28,7 @@ Traceback (most recent call last):
   File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/psutil/_psposix.py", line 28, in <module>
     from . import _psutil_osx
 ImportError: cannot import name '_psutil_osx' from partially initialized module 'psutil' (most likely due to a circular import) (/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/psutil/__init__.py)
-2023-10-25 16:57:23.102 ERROR (MainThread) [homeassistant.setup] Setup failed for custom integration xiaomi_miot_raw: Unable to import component: No module named 'click'
+2023-12-07 10:33:12.541 ERROR (MainThread) [homeassistant.setup] Setup failed for custom integration xiaomi_miot_raw: Unable to import component: No module named 'click'
 Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/homeassistant/setup.py", line 215, in _async_setup_component
     component = integration.get_component()
@@ -53,24 +53,24 @@ Traceback (most recent call last):
   File "/Users/liuzhou/.homeassistant/deps/lib/python/site-packages/miio/device.py", line 8, in <module>
     import click
 ModuleNotFoundError: No module named 'click'
-2023-10-25 16:57:23.268 ERROR (SyncWorker_0) [custom_components.ics_calendar] No configuration found! If you upgraded from ics_calendar v3.2.0 or older, you need to update your configuration! See https://github.com/franc6/ics_calendar/blob/releases/UpgradeTo4.0AndLater.md for more information.
-2023-10-25 16:57:23.331 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of default_config. Setup failed for dependencies: hardware
-2023-10-25 16:57:23.331 ERROR (MainThread) [homeassistant.setup] Setup failed for default_config: (DependencyError(...), 'Could not setup dependencies: hardware')
-2023-10-25 16:57:23.331 WARNING (MainThread) [homeassistant.components.weather] custom_components.colorfulclouds.weather::None is using a forecast attribute on an instance of WeatherEntity, this is deprecated and will be unsupported from Home Assistant 2024.3. Please report it to the custom integration author.
-2023-10-25 16:57:23.333 ERROR (MainThread) [homeassistant.components.calendar] Error while setting up ics_calendar platform for calendar
+2023-12-07 10:33:12.639 ERROR (SyncWorker_3) [custom_components.ics_calendar] No configuration found! If you upgraded from ics_calendar v3.2.0 or older, you need to update your configuration! See https://github.com/franc6/ics_calendar/blob/releases/UpgradeTo4.0AndLater.md for more information.
+2023-12-07 10:33:12.763 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of default_config. Setup failed for dependencies: hardware
+2023-12-07 10:33:12.763 ERROR (MainThread) [homeassistant.setup] Setup failed for default_config: (DependencyError(...), 'Could not setup dependencies: hardware')
+2023-12-07 10:33:12.763 WARNING (MainThread) [homeassistant.components.weather] custom_components.colorfulclouds.weather::None is using a forecast attribute on an instance of WeatherEntity, this is deprecated and will be unsupported from Home Assistant 2024.3. Please report it to the custom integration author.
+2023-12-07 10:33:12.765 ERROR (MainThread) [homeassistant.components.calendar] Error while setting up ics_calendar platform for calendar
 Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/homeassistant/helpers/entity_platform.py", line 359, in _async_setup_platform
     await asyncio.shield(task)
   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/thread.py", line 58, in run
     result = self.fn(*self.args, **self.kwargs)
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/liuzhou/.homeassistant/custom_components/ics_calendar/calendar.py", line 95, in setup_platform
+  File "/Users/liuzhou/.homeassistant/custom_components/ics_calendar/calendar.py", line 97, in setup_platform
     calendar_devices.append(ICSCalendarEntity(entity_id, device_data))
                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/liuzhou/.homeassistant/custom_components/ics_calendar/calendar.py", line 116, in __init__
+  File "/Users/liuzhou/.homeassistant/custom_components/ics_calendar/calendar.py", line 118, in __init__
     self.data = ICSCalendarData(device_data)
                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/liuzhou/.homeassistant/custom_components/ics_calendar/calendar.py", line 196, in __init__
+  File "/Users/liuzhou/.homeassistant/custom_components/ics_calendar/calendar.py", line 199, in __init__
     self.parser = ICalendarParser.get_instance(device_data[CONF_PARSER])
                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/Users/liuzhou/.homeassistant/custom_components/ics_calendar/icalendarparser.py", line 33, in get_instance
@@ -80,10 +80,10 @@ Traceback (most recent call last):
     parser_module_name = ".parsers.parser_" + parser
                          ~~~~~~~~~~~~~~~~~~~^~~~~~~~
 TypeError: can only concatenate str (not "NoneType") to str
-2023-10-25 16:57:24.259 WARNING (SyncWorker_0) [scapy.runtime] No IPv4 address found on anpi2 !
-2023-10-25 16:57:24.285 WARNING (SyncWorker_0) [scapy.runtime] No IPv4 address found on anpi1 !
-2023-10-25 16:57:24.302 WARNING (SyncWorker_0) [scapy.runtime] more No IPv4 address found on anpi0 !
-2023-10-25 16:58:19.452 ERROR (MainThread) [root] Uncaught exception
+2023-12-07 10:33:13.666 WARNING (SyncWorker_3) [scapy.runtime] No IPv4 address found on anpi0 !
+2023-12-07 10:33:13.683 WARNING (SyncWorker_3) [scapy.runtime] No IPv4 address found on anpi2 !
+2023-12-07 10:33:13.692 WARNING (SyncWorker_3) [scapy.runtime] more No IPv4 address found on anpi1 !
+2023-12-07 10:35:18.120 ERROR (MainThread) [root] Uncaught exception
 Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.11/bin/hass", line 8, in <module>
     sys.exit(main())
