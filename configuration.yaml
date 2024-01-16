@@ -14,6 +14,10 @@ panel_iframe:
     title: "天气"
     icon: mdi:weather-partly-cloudy
     url: https://embed.windy.com/embed2.html?lat=30.16&lon=120.12&detailLat=30.16&detailLon=120.12&zoom=8&level=surface&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1
+  map:
+    title: "地图"
+    icon: mdi:weather-partly-cloudy
+    url: /local/gaodemap/index.html
 
 calendar:
   - platform: caldav
@@ -30,14 +34,14 @@ calendar:
         url: https://calendars.icloud.com/holidays/cn_zh.ics/
         include_all_day: True
 
-panel_custom:
-  - name: amap-panel
-    sidebar_title: 地图
-    sidebar_icon: hass:map
-    module_url: /local/amap/amap-panel.js
-    trust_external_script: true
-    config:
-      key: "afab1993cbdf13fef11f562931d6a17f"
+# panel_custom:
+#   - name: amap-panel
+#     sidebar_title: 地图
+#     sidebar_icon: hass:map
+#     module_url: /local/amap/amap-panel.js
+#     trust_external_script: true
+#     config:
+#       key: "afab1993cbdf13fef11f562931d6a17f"
 
 sensor:
   - platform: time_date
